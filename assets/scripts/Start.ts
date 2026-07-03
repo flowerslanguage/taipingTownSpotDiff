@@ -8,6 +8,6 @@ export class Start extends Component {
   update(deltaTime: number) {}
 
   onClickStartGame() {
-    director.loadScene("Hall");
+    director.loadScene("Map");
   }
 }
